@@ -37,7 +37,7 @@ public class PageActivity extends Activity {
                 }
             }
         });
-        webView.loadUrl(url);
+        webView.loadUrl(url);//
     }
 
     private void openPageActivity(String url) {
